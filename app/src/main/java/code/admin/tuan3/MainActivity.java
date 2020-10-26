@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_lunch_list);
+        setContentView(R.layout.activity_lunch_list);
         Button save = (Button)findViewById(R.id.save);
         save.setOnClickListener(onSave);
     }
